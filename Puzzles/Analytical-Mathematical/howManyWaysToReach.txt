@@ -1,0 +1,10 @@
+Question: 
+You begin in the top left corner of a 6×6 grid, and your objective is to move to the bottom right corner. 
+There are just two directions you can move: right or down. Both diagonal and backward movements are prohibited. 
+How many different ways are there to get from the start to the finish?
+
+Answer:
+
+Using combinatorics, this is simply a matter of chosing the positioning of 5 Downward moves out of 10 required moves. 
+
+5C10 =  252 is the answer
