@@ -1,0 +1,20 @@
+(Q)
+
+A has three daughters. His friend S wants to know the ages of his daughters. A gives him a first hint. 
+
+1. The product of their age is 72. 
+
+S says this is not enough information A gives him a second hint. 
+
+2. The sum of their ages is equal to my house number. 
+
+S goes out and looks at the house number and tells “I still do not have enough information to determine the ages”. 
+
+A admits that S can not guess and gives him the third hint 
+
+3. The oldest girl likes strawberry ice cream. 
+
+S is able to guess after the third hint. Can you guess what are the ages of the three daughters? 
+
+(A)
+
