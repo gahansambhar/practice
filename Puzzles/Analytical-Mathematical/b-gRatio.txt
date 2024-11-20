@@ -1,0 +1,7 @@
+Questiion:
+In a country, all families want a boy. They keep having babies till a boy is born. What is the expected ratio of boys and girls in the country?
+
+Solutin:
+
+this scenario can be modeled as a Geometric distribution with p=1/2, IF we consider the E(X) where X is the number of children born including a boy,
+we see that the expected nuber of trials 1/p = 1/0.5 = 2, since this includes the boy ebing born, the number of girls being born is 1. Therefore, the ratio is 1:1
