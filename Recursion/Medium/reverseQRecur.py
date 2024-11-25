@@ -4,7 +4,7 @@ class queue:
         pass
 
     def __repr__(self):
-        return self.queue
+        return str(self.queue)
 
     def put(self, value):
         self.queue.append(value)
@@ -27,3 +27,29 @@ class queue:
 
     def front(self):
         return self.queue[0]
+
+
+def reverse(Qew: queue):
+    # Base Case being an empty queue
+    if Qew.empty():
+        return Qew
+
+    # Essentially de-queue and enqueue the items in the list
+    else:
+        item = Qew.get()
+        Qew = reverse(Qew)
+        Qew.put(item)
+        return Qew
+
+
+Qew1 = queue()
+
+Qew1.put(1)
+Qew1.put(2)
+Qew1.put(3)
+Qew1.put(4)
+Qew1.put(5)
+Qew1.put(6)
+
+print(Qew1)
+print(reverse(Qew1))
